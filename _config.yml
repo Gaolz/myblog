@@ -1,2 +1,2 @@
-markdown: maruku
+markdown: kramdown
 baseurl: /myblog
