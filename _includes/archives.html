@@ -6,7 +6,7 @@
     {% capture nmonth %}{{ post.next.date | date: '%m%Y' }}{% endcapture %}
     {% if month != nmonth %}
 	<li>
-	<a href="/archives#{{ post.date | date: '%m%Y' }}" class="dk">{{ post.date | date: '%B %Y' }}</a>
+	<a href="/myblog/archives#{{ post.date | date: '%m%Y' }}" class="dk">{{ post.date | date: '%B %Y' }}</a>
 	</li>
 	<li class="line"></li>
     {% endif %}

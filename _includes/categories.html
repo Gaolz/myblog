@@ -6,7 +6,7 @@
     {% assign category_name = category | first | capitalize %}
     {% if category_folder != category_name %}
 	<li>
-	<a href="/categories/{{ category_folder }}/" class="dk">
+	<a href="/myblog/categories/{{ category_folder }}/" class="dk">
 	  <span class="badge pull-right">{{ category | last | size }}</span>
 	</a>
 	</li>
