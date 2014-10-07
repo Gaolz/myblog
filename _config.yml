@@ -1,3 +1,18 @@
-markdown: redcarpet
-pygments: true
-baseurl: /myblog
+# Site settings
+title: "高老庄"
+baseurl: ""  # the subpath of your site, e.g. /blog/
+url: "http://gaolz.github.io"  # the base hostname & protocol for your site
+github_username: Gaolz
+
+timezone: Beijing
+# Build settings
+highlighter: pygments
+permalink: /:categories/:title/
+
+# markdown： kramdown
+markdown:    kramdown
+redcarpet:
+  extensions:
+    - fenced_code_blocks
+
+paginate: 10

@@ -1,13 +1,19 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml-transitional.dtd">
-<html xmlns= "http://www.w3.org/1999/xhtml">
-  <head>
-    <meta http-equiv="content/type" content="text/html"; charset="utf8" />
-    <link rel="stylesheet" type="text/css" href="/css/pygments.css" />
-    <title>{{ page.title }}</title>
-  </head>
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
   <body>
-    Hello you, I am happy Gaolz
-
-    {{ content }}
+    {% include header.html %}
+    <section id="content">
+    	<div class="containeri m-t-lg m-b-lg">
+    		<div class="row">
+    			<div class="col-sm-9">
+			  <div class="blog-post">
+			    {{ content }}
+			  </div>
+    			</div>
+			{% include sidebar.html %}
+    		</div>
+    	</div>
+    </section>
   </body>
 </html>
