@@ -9,7 +9,7 @@ permalink: /tags/
     <header id="{{ tag_name }}" class="panel-heading"><strong>{{ tag_name | capitalize }}</strong></header>
     <section class="panel-body">
       {% for post in site.tags[tag_name] %}
-        {% include list-post.html %}
+        {% include list_post.html %}
       {% endfor %}
     </section>
   </section>

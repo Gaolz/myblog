@@ -1,7 +1,7 @@
 # Site settings
 title: "高老庄"
 baseurl: "http://gaolz.github.io/myblog"  # the subpath of your site, e.g. /blog/
-url: "http://gaolz.github.io/myblog"  # the base hostname & protocol for your site
+url: "http://gaolz.github.io/"  # the base hostname & protocol for your site
 github_username: Gaolz
 
 timezone: Beijing
