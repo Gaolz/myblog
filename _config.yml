@@ -9,8 +9,8 @@ timezone: Beijing
 highlighter: pygments
 permalink: /:categories/:title/
 
-# markdown： kramdown
-markdown:    kramdown
+# markdown： redcarpet
+markdown:    redcarpet
 redcarpet:
   extensions:
     - fenced_code_blocks
